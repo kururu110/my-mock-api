@@ -4,13 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "json-server db.json --host 0.0.0.0 --port $PORT --static ."
+    "start": "json-server --watch db.json --host 0.0.0.0 --port $PORT"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
-    "json-server": "^1.0.0-beta.12"
+    "json-server": "^0.17.4"
   }
 }
